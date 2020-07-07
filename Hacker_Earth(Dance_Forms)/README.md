@@ -6,10 +6,10 @@ Given the small train dataset consisting of around 300 images, a fairly straight
 
 ### Analysis : </br> 
 - Model was found to converge with 5 - 10 epochs with a _learning-rate_ of 0.01
-- Later it was reduced to 0.0001 for next 5 epochs
+- Later it was reduced to 0.0001 for next 5 epochs as further fine converging was observed
 - No other hyperparameter tuning was performed apart from _num-epochs_ and _learning-rate_
-- Resnet18 seemed to perform better than deep models
-- Given the small test size there were high chances of manual prediction for a domain expert.</br>
+- Resnet18 seemed to perform better than other deep models like Resne50 (Mostly given the small training data, overfitting was likey the one to blame!)
+- Given the small test size there were high chances of manual prediction for a domain expert .</br>
 - Overall achieved a decent accuracy of around 85.
 
 _Note_ : Because of time constraints I was not able to further improve my submission (I worked on this problem for 2 days). 
